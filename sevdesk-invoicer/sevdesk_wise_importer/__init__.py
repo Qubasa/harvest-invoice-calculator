@@ -120,6 +120,7 @@ class Accounts:
         )
 
         res = create_check_account.sync(client=self.client, json_body=account)
+
         if res is None or res.objects is Unset:
             die(f"Failed to create account {name}")
         self.cache[currency] = res.objects.id

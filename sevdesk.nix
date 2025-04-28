@@ -13,7 +13,7 @@ buildPythonPackage {
   pname = "SevDesk-Python-Client";
   version = "2024-06-01";
   src = fetchFromGitHub {
-    owner = "Mic92";
+    owner = "Qubasa";
     repo = "SevDesk-Python-Client";
     rev = "bfc87c6158805f23c011b48e92f945006b34947e";
     sha256 = "sha256-mbyPsbMqG6v6illHxbISLzjTj7BoWZ7PLrZ3j2MUFhE=";
