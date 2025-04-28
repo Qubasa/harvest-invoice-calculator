@@ -15,8 +15,8 @@ buildPythonPackage {
   src = fetchFromGitHub {
     owner = "Qubasa";
     repo = "SevDesk-Python-Client";
-    rev = "bfc87c6158805f23c011b48e92f945006b34947e";
-    sha256 = "sha256-mbyPsbMqG6v6illHxbISLzjTj7BoWZ7PLrZ3j2MUFhE=";
+    rev = "0f83b4fbf6c940bbb88652da33538a14c35b37ef";
+    sha256 = "sha256-GSYrG+Jk1UJIZOnoUiHhjAMQA+/WsznGS4czlz2YQU4=";
   };
   postPatch = ''
     sed -i -e 's/"^.*"/"*"/' pyproject.toml
